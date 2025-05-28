@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <style>
+        p{
+            color: palevioletred;
+        }
+
+        h1{
+            color: pink;
+        }
+
+        b{
+            color: rgb(255, 147, 165);
+        }
+    </style>
+
+    <link rel="stylesheet" href="aula.css">
+</head>
+<body>
+  <p class="corLilas">Tags de texto</p>
+  <p>Vai Corinthians</p>
+  <h1>Vai Corinthians</h1>
+  <h2>Vai Corinthians</h2>
+  <h3>Vai Corinthians</h3>
+  <h4 class="corLilas">Vai Corinthians</h4>
+  <h5>Vai Corinthians</h5>
+  <h6>Vai Corinthians</h6>
+
+  <p>Contagem regreciva</p>
+  <strong>1 2 3</strong>
+  <em>ablabluble</em>
+  <br>
+  <b>Cade os perdidinhos</b>
+  <br>
+  <i>No bolsoooo</i>
+
+  <p>Hiper link -> link</p>
+  <a href="https://WWW.google.com.br">link para google</a>
+
+  <p>tags de lista</p>
+  <b>lista ordenada</b>
+  <ol>
+    <li>oii</li>
+    <li>oiiiiii</li>
+    <li>oi</li>
+  </ol>
+
+  <b>Lista não ordenada</b>
+  <ul>
+    <li>ola</li>
+    <li>ola</li>
+    <li>ola</li>
+  </ul>
+
+  <b>lista de Descrição</b>
+  <dl>
+    <dt>Comidas</dt>
+    <dd>Açucar</dd>
+    <dd>Chips</dd>
+    <dd>Chocolate</dd>
+    <dt>Produtos de limpeza</dt>
+    <dd>Cif</dd>
+    <dd>Detergente</dd>
+    <dd>Esponja</dd>
+    <dd>Sabão</dd>
+  </dl>
+
+  <p>imagens</p>
+  <img src="C:\Users\lucas_r_alflen\Downloads\htmloud\maxresdefault.jpg" width="500" height="350" alt="Error911">
+  <figcaption>A maior torcida</figcaption>
+  <br>
+
+  <figure>
+    <img src="C:\Users\lucas_r_alflen\Downloads\htmloud\e669f1c995b0364bcc633d081ab30d43.jpg" width="500" height="350" alt="Error">
+    <figcaption>O uruguaio De Arrascaeta faz mas um hat-trick</figcaption>
+  </figure>
+
+  <table>
+    <caption><b><i>TABELA</i></b></caption>
+    <tr>
+      <th>coluna 1</th>
+      <th>coluna 2</th>
+      <th>coluna 3</th>
+    </tr>
+    <tr>
+      <td>Item A1</td>
+      <td>Item B1</td>
+      <td>Item C1</td>
+    </tr>
+    <tr>
+      <td>item A2</td>
+      <td>Item B2</td>
+      <td>Item C2</td>
+    </tr>
+    <tr>
+      <td>Item A3</td>
+      <td>Item B3</td>
+      <td>Item C3</td>
+    </tr>
+    <tfoot>
+      <tr>
+        <td><b>Fim da Tabela</b></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <p>Formulario</p>
+  <form>
+    <fieldset>
+      <legend>Informações Pessoais</legend>
+      <label for="Nome"><b>Nome:</b></label>
+      <input type="text" name="Nome" placeholder="Digite o seu Nome:">
+      <br>
+
+      <label for="Email"><b>Email:</b></label>
+      <input type="Email" name="Email" placeholder="Digite o seu email:">
+      <br>
+
+      <label for="Senha"><b>Senha:</b></label>
+      <input type="password" name="Senha" placeholder="Digite a Sua Senha:">
+      <br>
+
+      <label for="Idade"><b>Idade:</b></label>
+      <input type="Number" name="Idade" placeholder="Digite a sua Idade: " min="18" max="150">
+    </fieldset>
+
+    <fieldset>
+      <legend>Sugestões</legend>
+      <label>Sua Opinião</label>
+      <textarea name="opinião" placeholder="Digite A sua Opinião"></textarea>
+
+      <label for="Avaliação">Nos Avalie.</label>
+      <select name="Avaliação">
+        <option value="">Selecione</option>
+        <option value="Ótimo">Ótimo</option>
+        <option value="Bom">Bom</option>
+        <option value="Regular">Regular</option>
+        <option value="Ruim">Ruim</option>
+        <option value="muito ruim">muito ruim</option>
+      </select>
+
+      <p>Avaliação com rádio</p>
+      <label for="Bom">Bom</label>
+      <input type="Radio" name="Ava" value="Bom">
+
+      <label for="Regular">Regular</label>
+      <input type="Radio" name="Ava" value="Regular">
+
+      <label for="Ruim">Ruim</label>
+      <input type="Radio" name="Ava" value="Ruim">
+    </fieldset>
+
+    <button type="botão">Enviar</button>
+  </form>
+</body>
+</html>
